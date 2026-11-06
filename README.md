@@ -39,6 +39,9 @@ YouTube などで流れている**英語の音声を、リアルタイムで日�
 ## 使用しているソフトウェア
 Vosk と英語モデル(Apache License 2.0)、ML Kit 翻訳(Google ML Kit 利用規約)、JNA(Apache License 2.0)、AndroidX(Apache License 2.0)
 
+## ソースコード
+ビルド方法とコードの構成は [BUILD.md](BUILD.md) を見てください。
+
 ## 更新履歴
 - v1.1:訳の口調(まじめ・ふつう・ワル)を設定で選べるようにした
 - v1.0:最初のリリース

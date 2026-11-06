@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- サイバーパンク風アイコン:角を切った吹き出し(赤とシアンのズレ=グリッチ)+字幕の行+黄色のカーソル -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+
+    <!-- 赤のズレ -->
+    <group android:translateX="-2">
+        <path android:strokeColor="#FF3B5C" android:strokeWidth="3"
+            android:pathData="M34,30L80,30L80,64L74,70L48,70L40,78L40,70L28,70L28,36Z" />
+    </group>
+    <!-- シアンのズレ -->
+    <group android:translateX="2">
+        <path android:strokeColor="#5EF6FF" android:strokeWidth="3"
+            android:pathData="M34,30L80,30L80,64L74,70L48,70L40,78L40,70L28,70L28,36Z" />
+    </group>
+    <!-- 本体(黄色) -->
+    <path android:strokeColor="#FCEE0A" android:strokeWidth="3"
+        android:pathData="M34,30L80,30L80,64L74,70L48,70L40,78L40,70L28,70L28,36Z" />
+
+    <!-- 字幕の行:確定した白い文字 -->
+    <path android:fillColor="#F0F0F0" android:pathData="M35,39h26v5h-26z" />
+    <!-- まだ変換中のノイズ(シアンと赤) -->
+    <path android:fillColor="#5EF6FF" android:pathData="M63,39h4v5h-4z" />
+    <path android:fillColor="#FF3B5C" android:pathData="M69,39h4v5h-4z" />
+    <!-- 2行目+黄色のカーソル -->
+    <path android:fillColor="#F0F0F0" android:pathData="M35,51h18v5h-18z" />
+    <path android:fillColor="#FCEE0A" android:pathData="M56,50h5v7h-5z" />
+    <!-- 原文の小さい行 -->
+    <path android:fillColor="#5EF6FF" android:fillAlpha="0.6" android:pathData="M35,61h28v2h-28z" />
+</vector>

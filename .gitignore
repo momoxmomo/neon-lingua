@@ -1,0 +1,8 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+app/src/main/assets/model-en-us/
+# 公開用の署名鍵とパスワード(絶対に公開しない)
+signing/
